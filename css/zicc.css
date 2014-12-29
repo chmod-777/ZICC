@@ -93,11 +93,16 @@ body {
 }
 
 .footer {
-  display: inline-block;
+  display: inline;
 }
 
 .footer .pull-left a {
   color: #f27b1d;
+}
+
+.footer .pull-right a {
+  color: #000000;
+  text-decoration: underline;
 }
 
 
