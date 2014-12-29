@@ -14,16 +14,16 @@ body {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff));
 
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #d5d5d5, #ffffff);
+  background: -webkit-linear-gradient(top, #c5c5c5, #ffffff 12%);
 
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #d5d5d5, #ffffff);
+  background: -moz-linear-gradient(top, #c5c5c5, #ffffff 12%);
 
   /* IE 10 */
-  background: -ms-linear-gradient(top, #d5d5d5, #ffffff);
+  background: -ms-linear-gradient(top, #c5c5c5, #ffffff 12%);
 
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #d5d5d5, #ffffff);
+  background: -o-linear-gradient(top, #c5c5c5, #ffffff 12%);
 }
 
 #page-wrapper {
