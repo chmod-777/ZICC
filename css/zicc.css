@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	line-height: 20px;
+
+	/*******/
+
+	/* fallback */
+  background-color: f6f9ff;
+  
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(f6f9ff), to(#ffffff));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(bottom, #ffffff, f6f9ff);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(bottom, #ffffff, f6f9ff);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(bottom, #ffffff, f6f9ff);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(bottom, #ffffff, f6f9ff);
+}
+
+#page-wrapper {
+	width: 1000px;
+    margin: 0 auto;
+    
+    padding-top: 20px;
+    
+}
+
+#header-logo {
+	margin: 0 auto;
+}
+
+.nav.nav-center {
+	display: inline-block;
+    margin:0;
+    float:none;
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+/*****/
+
+/* This should be around line 4713 in your bootstrap.css */
+.navbar-collapse.collapse {
+        text-align: center; /* Set this */
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+}
+
+/* This should be around line 4866 in your bootstrap.css */
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+#services h4 {
+  color: #f27b1d;
+}
+
+#services p {
+  color: #9a9a9a;
+}
+
+#services span {
+  color: #f27b1d;
+}
+
+#services a {
+  color: #f27b1d;
+}
+
+#services .service-item {
+  background-color: #ececec;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+/******/
+
