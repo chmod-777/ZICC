@@ -7,23 +7,23 @@ body {
 	/*******/
 
 	/* fallback */
-  background-color: f6f9ff;
+  background-color: #ffffff;
   
 
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(f6f9ff), to(#ffffff));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff));
 
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(bottom, #ffffff, f6f9ff);
+  background: -webkit-linear-gradient(top, #d5d5d5, #ffffff);
 
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(bottom, #ffffff, f6f9ff);
+  background: -moz-linear-gradient(top, #d5d5d5, #ffffff);
 
   /* IE 10 */
-  background: -ms-linear-gradient(bottom, #ffffff, f6f9ff);
+  background: -ms-linear-gradient(top, #d5d5d5, #ffffff);
 
   /* Opera 11.10+ */
-  background: -o-linear-gradient(bottom, #ffffff, f6f9ff);
+  background: -o-linear-gradient(top, #d5d5d5, #ffffff);
 }
 
 #page-wrapper {
