@@ -12,6 +12,15 @@
     <!-- Custom CSS -->
     <link href="css/zicc.css" rel="stylesheet">
 
+    <style>
+      #map-canvas {
+        width: 750px;
+        height: 550px;
+        background-color: #ccc;
+        margin: 0 auto;
+      }
+    </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -66,121 +75,32 @@
       </nav>
       </header>
       
-      <div id="header-image" class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <img src="img/ZICC_home_banner.jpg" alt=""  class="img-responsive">
-          </div>
-        </div>
-      </div>
-
-    <!-- Services -->
-    <div id="services" class="services">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-laptop"></i>
-              <h4>Bringing Two friendly Countries together</h4>
-              <p>ZICC brings together ZImbabwe and India in an exciting way. With doors opening from both ends, the potential for business opportunities has never been more inviting. <a href="#">Click here to read more...</a></p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <i class="service-icon fa fa-envelope"></i>
-              <h4 class="text-center">Areas of opportunity</h4>
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="container-fluid">
-                            <div class="row-fluid">
-                                <div class="col-xs-6">
-                                    <ul>
-                                        <li>Education</li>
-                                        <li>Export & Import</li>
-                                        <li>Manufacturing</li>
-                                        <li>Travel & Tourism</li>
-                                        <li>Finance</li>
-                                        <li>Investing</li>
-                                        <li>Real Estate</li>
-                                        <li>Social & Cultural</li>
-                                        <li>Agricultural Processing</li>
-                                    </ul>
-                                </div>
-                                <div class="col-xs-6">
-                                    <ul>
-                                        <li>Mining</li>
-                                        <li>Outsourcing</li>
-                                        <li>Distribution</li>
-                                        <li>Networking</li>
-                                        <li>Technology</li>
-                                        <li>Marketing</li>
-                                        <li>Logistics</li>
-                                        <li>Pharmaceuticals</li>
-                                        <li>Energy & Power</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div> <!-- /Container -->
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-bitcoin"></i>
-              <h4>Becoming a member</h4>
-              <p>Joining the ZICC is a quick and easy process, however the benefits are unlimited. Meeting once a month to discuss key events, plans and opportunities, the ZICC provides an open forum for people to get what they need.</p>
-              <p><span><a href="#">Learn More</a>  |  <a href="#">Member Forms</a></span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Services -->
+          <div class="col-sm-12">
+            <h3>Contact ZICC</h3>
+            <p>Thanks for visiting our website. In case of any further information/ queries, may kindly contact us at:
+</p>
+            <br>
 
-    <hr>
-
-    <!-- Image area -->
-    <div class="row">
-      <div class="col-sm-12 col-md-3">
-        <div class="thumbnail">
-          <img src="img/manufacturing.jpg" alt="...">
-          <div class="caption">
-            <h3>Manufacturing</h3>
+            <h3>Zimbabwe India Chamber of Commerce</h3>
+            <p>Postal Address: 27 Watts Road, Ardbennie, Harare, Zimbabwe</p>
+            <p>Phone: +2634 2900 594</p>
+            <p>Email: info@zimbabweindiachamber.co.zw</p>
+            <p>Website: www.zimbabweindiachamber.co.zw </p>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3">
-        <div class="thumbnail">
-          <img src="img/agriculture.jpg" alt="...">
-          <div class="caption">
-            <h3>Agriculture</h3>
-          </div>
-        </div>
+      <!-- Google Map -->
+      
+      <div id="map-canvas">
+        
       </div>
 
-      <div class="col-sm-12 col-md-3">
-        <div class="thumbnail">
-          <img src="img/industry.jpg" alt="...">
-          <div class="caption">
-            <h3>Industry</h3>
-          </div>
-        </div>
-      </div>
+      <!-- /Google Map -->
 
-      <div class="col-sm-12 col-md-3">
-        <div class="thumbnail">
-          <img src="img/IT.jpg" alt="...">
-          <div class="caption">
-            <h3>ICT</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Image area -->
+
 
     <!-- Footer -->
     <footer>
@@ -215,5 +135,21 @@
     <script src="js/jquery-1.10.2.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Google Maps Javascript API -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- Google Maps Code -->
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(-17.879809, 31.021173),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
   </body>
 </html>
