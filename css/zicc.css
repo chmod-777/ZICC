@@ -27,14 +27,13 @@ body {
 }
 
 #page-wrapper {
-	width: 1100px;
-  margin: 0 auto;
   padding-top: 20px;
 }
 
 #header-logo {
 	margin: 0 auto;
 }
+
 
 .nav.nav-center {
 	display: inline-block;
@@ -64,8 +63,46 @@ body {
     margin: 0;
 }
 
+.navbar-nav > li:hover{
+
+    /*******/
+
+  /* fallback */
+  background-color: #FE8C15;
+  
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #FCC34A, #FE8C15 30%);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #FCC34A, #FE8C15 30%);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #FCC34A, #FE8C15 30%);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #FCC34A, #FE8C15 30%);
+
+  
+
+}
+
+.navbar-nav > li > a:hover {
+  color: white !important;
+}
+
+
 #header-image {
   margin: 0 auto;
+}
+
+@media all and (max-width : 480px){
+  #header-image {
+    display: none;
+  }
 }
 
 #services h4 {
@@ -84,21 +121,51 @@ body {
   color: #f27b1d;
 }
 
+#services ul {
+  list-style: none;
+  padding-left: 0px;
+  color: #9a9a9a;
+}
+
+#services .row {
+  padding: 0px 30px 0px 30px;
+}
+
 #services .service-item {
   background-color: #ececec;
   border-radius: 10px;
   padding: 5px;
 }
 
+@media all and (max-width : 991px){
+  #services .service-item {
+    margin-bottom: 10px;
+  }
+}
+
 /** FOOTER **/
 
 .footer {
-  display: inline;
+  background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 20px, #ececec 50px, #ececec 60px, #ffffff 100px); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(11%,#ffffff), color-stop(18%,#ececec), color-stop(63%,#ececec), color-stop(68%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 11%,#ececec 18%,#ececec 63%,#ffffff 68%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 11%,#ececec 18%,#ececec 63%,#ffffff 68%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 11%,#ececec 18%,#ececec 63%,#ffffff 68%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 20px, #ececec 20px, #ececec 60px, #ffffff 80px); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+
 
 .footer .left-footer a {
   color: #f27b1d;
 }
+
+.footer .right-footer {
+  padding-top: 23px;
+}
+
+
 
 .footer .right-footer a {
   color: #000000;
