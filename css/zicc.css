@@ -156,18 +156,6 @@ background: linear-gradient(to bottom, #ffffff 20px, #ececec 20px, #ececec 60px,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.footer .left-footer {
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 20%, #ececec 28%, #ececec 73%, #ffffff 80%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#ffffff), color-stop(28%,#ececec), color-stop(73%,#ececec), color-stop(80%,#ffffff)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #ffffff 20%,#ececec 28%,#ececec 73%,#ffffff 80%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #ffffff 20%,#ececec 28%,#ececec 73%,#ffffff 80%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #ffffff 20%,#ececec 28%,#ececec 73%,#ffffff 80%); /* IE10+ */
-  background: linear-gradient(to bottom, #ffffff 20%,#ececec 28%,#ececec 73%,#ffffff 80%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
-
-
 
 .footer .left-footer a {
   color: #f27b1d;
