@@ -3,6 +3,7 @@ body {
 	font-size: 14px;
 	color: #333333;
 	line-height: 20px;
+  margin: 0 10% 0 10%;
 
 	/*******/
 
@@ -169,6 +170,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .footer .right-footer a {
   color: #000000;
+  text-decoration: underline;
+}
+
+.footer .right-footer a:hover {
+  color: #f27b1d;
   text-decoration: underline;
 }
 
