@@ -98,6 +98,12 @@ body {
   padding: 5px;
 }
 
+@media all and (max-width : 480px){
+  #services .service-item {
+    margin-bottom: 10px;
+  }
+}
+
 /** FOOTER **/
 
 .footer {
