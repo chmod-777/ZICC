@@ -19,6 +19,26 @@ https://www.youtube.com/watch?v=40i5yoTtojI
 
 * what to do about header image on all pages besides home page? Just chuck it? The one with Great Zimbabwe & the Taj Mahal...and some fine daij ;)
 
-* Add India Orange highlight to the navbar, just like in the original site.
 
-* How to reproduce the grey band on the the footer that encapsulates all the footer items?
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+New note to Mr Tambo:
+*********************
+
+1. Actually, I wanted the page-wrapper to be centered vs occupying the whole page, just like the original, hence setting a fixed width in px, though that did break the resposiveness, we need a solution that retains responsiveness but also centeres the page wrapper
+
+2. The outside edges of the service items should be aligned with the main image such that they line up and not overflow as is the case now.
+
+3. In mobile view everything is great except that the main header image isn't showing up. I think that one is essential from a design perspective considering that the space it would have occupied is still there so it looks odd. I think we could have a different image for mobile view where the text is erased and maybe placed in a div right below the image before the service items. I thought you were reffering to the round logo image at the top when you said on app that we should remove it.
+
+4. Navbar highlights are great, however, if you look closely, there is a tiny bit of space at the bottom that remains grey, we need to fix this. Also, we need ideas on what to do with styling the active navbar item. In the original site, they were colored Indian Orange as well which looked weird when you highlighted a nav item right next to the active one. I'm thinking we can keep the darker shade of grey but make the text light up in Indian Orange instead of white as is the case now.
+
+5.On the footer, the grey background is now there, though it becomes larger at the bottom in the area with the black list items. You may need to tilt your screen to notice this because it's very subtle and most laptops have poor viewing angles. This problem only shows up on larger screens though. However, I like how the link items are adapting to different screen sizes, it's just the grey background that's off, otherwise the footer is done.
+
+6. Service Item - Areas of opportunity should be aligned left, I think we also should put the bullets, I dunno looks better in my opinion that way. What do you think?
+
+* what to do about header image on all pages besides home page? Just chuck it? The one with Great Zimbabwe & the Taj Mahal...and some fine daij ;)
+
+z. I am using Firefox 34.0, we should keep in mind browser differences. Which one are you using?
+
+write your response her...
