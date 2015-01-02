@@ -77,5 +77,3 @@ Alrighty, wifi back and I've had a look at the stie over the past few hours.
 
 7. There was also that little isue with the tumbnails, used a media query to set the max width on smaller screens to 40% and margins to auto so that they are horizontally centered.
 
-So yeah, pretty much it.
-
