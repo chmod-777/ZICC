@@ -28,18 +28,12 @@
 
 
 
-Mr Tambo
-********
-
-* what to do about header image on all pages besides home page? Just chuck it? The one with Great Zimbabwe & the Taj Mahal...and some fine daij ;)
-
-
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 New note to Mr Tambo:
 *********************
 
-1. Actually, I wanted the page-wrapper to be centered vs occupying the whole page, just like the original, hence setting a fixed width in px, though that did break the resposiveness, we need a solution that retains responsiveness but also centeres the page wrapper
+1. Actually, I wanted the page-wrapper to be centered vs occupying the whole page, just like the original, hence setting a fixed width in px, though that did break the resposiveness, we need a solution that retains responsiveness but also centeres the page wrapper - I have added a left & right margin of 10%
 
 2. The outside edges of the service items should be aligned with the main image such that they line up and not overflow as is the case now.
 
