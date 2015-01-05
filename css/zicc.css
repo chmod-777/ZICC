@@ -99,6 +99,14 @@ body {
   color: white !important;
 }
 
+#content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #888888;
+}
+
 
 @media all and (max-width : 480px){
   #header-image {
