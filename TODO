@@ -33,11 +33,9 @@
 New note to Mr Tambo:
 *********************
 
-1. Actually, I wanted the page-wrapper to be centered vs occupying the whole page, just like the original, hence setting a fixed width in px, though that did break the resposiveness, we need a solution that retains responsiveness but also centeres the page wrapper - I have added a left & right margin of 10%
 
 2. The outside edges of the service items should be aligned with the main image such that they line up and not overflow as is the case now.
 
-3. In mobile view everything is great except that the main header image isn't showing up. I think that one is essential from a design perspective considering that the space it would have occupied is still there so it looks odd. I think we could have a different image for mobile view where the text is erased and maybe placed in a div right below the image before the service items. I thought you were reffering to the round logo image at the top when you said on app that we should remove it.
 
 My Response
 ***********

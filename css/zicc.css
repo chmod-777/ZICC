@@ -106,6 +106,12 @@ body {
   }
 }
 
+@media all and (min-width : 480px){
+  #header-image-mobile {
+    display: none !important;
+  }
+}
+
 
 #services {
   padding: 0% 3% 0% 3%;
