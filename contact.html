@@ -37,7 +37,7 @@
           <img id="header-logo" src="img/ZICC_logo_transparent.png" alt="Logo" class="img-responsive">
         </center>
 
-        <!-- Static navbar -->
+<!-- Navbar -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -47,80 +47,71 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            
+           <a class="navbar-brand" href="#"></a> 
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About ZICC</a></li>
-              <li><a href="#">Executive Committee</a></li>
-              <li><a href="#">Service Offerings</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Membership</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Us<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About ZICC</a></li>
+              <li><a href="excomm.html">Executive Committee</a></li>
+              <li><a href="services.html">Service Offerings</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="membership.html">Membership</a></li>
+              <li class="active"><a href="#">Contact Us</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
+      <!-- /Navbar -->>
       </header>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3>Contact ZICC</h3>
-            <p>Thanks for visiting our website. In case of any further information/ queries, may kindly contact us at:
-</p>
-            <br>
+        <div class="container">
+          <div id="content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <h3><strong>Contact ZICC</strong></h3>
+                    <p>Thanks for visiting our website. In case of any further information/ queries, may kindly contact us at:</p>
+                    <br>
 
-            <h3>Zimbabwe India Chamber of Commerce</h3>
-            <p>Postal Address: 27 Watts Road, Ardbennie, Harare, Zimbabwe</p>
-            <p>Phone: +2634 2900 594</p>
-            <p>Email: info@zimbabweindiachamber.co.zw</p>
-            <p>Website: www.zimbabweindiachamber.co.zw </p>
+                    <h3><strong>Zimbabwe India Chamber of Commerce</strong></h3>
+                    <p><strong>Postal Address:</strong> 27 Watts Road, Ardbennie, Harare, Zimbabwe</p>
+                    <p><strong>Phone:</strong> +2634 2900 594</p>
+                    <p><strong>Email:</strong> info@zimbabweindiachamber.co.zw</p>
+                    <p><strong>Website:</strong> www.zimbabweindiachamber.co.zw </p>
+                  </div>
+                  <div class="col-sm-3">
+                    <img src="img/zicc_contact.jpg" alt="" class="img-responsive">
+                  </div>
+                </div>
+              </div>
+
+            <!-- Google Map -->
+              <div id="map-canvas"></div>
+            <!-- Google Map -->
           </div>
         </div>
-      </div>
-
-      <!-- Google Map -->
-      
-      <div id="map-canvas">
-        
-      </div>
-
-      <!-- /Google Map -->
 
 
 
     <!-- Footer -->
     <footer>
-
       <div class="footer">
-        <div class="row">
+        <div class="container">
+          <div class="row">
             <div class="col-sm-6 left-footer">
               <img src="img/zicc_home_r7_c1(new).png" alt="ZICC footer logo">
             
-              <a href="http://www.zimbabweindiachamber.co.zw/legal/index.htm">Legal Notice</a> | <a href="http://www.zimbabweindiachamber.co.zw/terms/index.htm">Terms &amp; Conditions</a>
+              <a href="legal.html">Legal Notice</a> | <a href="terms.html">Terms &amp; Conditions</a>
             </div>
 
-            <div class = 'right-footer col-sm-6 text-center'>
-            <a href="http://www.zimbabweindiachamber.co.zw/index.htm">Home</a> I <a href="http://www.zimbabweindiachamber.co.zw/about/index.htm">About ZICC</a> I <a href="http://www.zimbabweindiachamber.co.zw/committee/index.htm">Executive Committee</a> I <a href="http://www.zimbabweindiachamber.co.zw/services/index.htm">Service Offerefings</a> I <a href="http://www.zimbabweindiachamber.co.zw/schedule/index.htm">Schedule</a> I <a href="http://www.zimbabweindiachamber.co.zw/membership/index.htm">Membership</a> I <a href="http://www.zimbabweindiachamber.co.zw/contact/index.htm">Contact Us</a>
-            </div>
-            
-            
-
+            <div class="right-footer col-sm-6 text-center">
+            <a href="index.html">Home</a> I <a href="about.html">About ZICC</a> I <a href="excomm.html">Executive Committee</a> I <a href="services.html">Service Offerefings</a> I <a href="schedule.html">Schedule</a> I <a href="membership.html">Membership</a> I <a href="#">Contact Us</a>
+            </div>  
+          </div><!-- /.row -->
         </div>
-      </div>
+      </div><!-- /.footer -->
+
     </footer>
     <!-- /Footer -->
 
@@ -132,6 +123,7 @@
     <script src="js/jquery-1.10.2.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jqueryeffects.js"></script>
     <!-- Google Maps Javascript API -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Google Maps Code -->
