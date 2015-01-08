@@ -22,6 +22,14 @@ body {
   padding-top: 20px;
 }
 
+.indian-orange {
+  color: #FF6600; /*color: #F58D38;*/
+}
+
+.indian-green {
+  color: #009900;
+}
+
 .nav > li.disabled > a {
   color: #333;
 }
@@ -31,7 +39,7 @@ body {
 }
 
 .navbar-default .navbar-nav > .active > a {
-    color: #F58D38;
+    color: #FF6600; /*color: #F58D38;*/
 }
 
 
@@ -102,7 +110,7 @@ body {
 #content {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding: 30px;
   background-color: #fff;
   box-shadow: 0 0 10px #888888;
 }
