@@ -62,7 +62,7 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-      <!-- /Navbar -->>
+      <!-- /Navbar -->
       </header>
       
         <div class="container">
@@ -87,8 +87,14 @@
               </div>
 
             <!-- Google Map -->
-              <div id="map-canvas"></div>
-            <!-- Google Map -->
+            <div id="map-canvas"></div>
+            <!-- /Google Map -->
+
+            <!-- Google Map Link -->
+            <div id="map-button" style="display: none;">
+              <a href="geo:-17.879809, 31.021173?z=8"><img src="img/map.png" alt="" class="img-responsive"><p>Click here for map directions</p></a>
+            </div>
+            <!-- /Google Map Link -->
           </div>
         </div>
 
@@ -128,7 +134,10 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Google Maps Code -->
     <script>
-      function initialize() {
+      var width = $(window).width();
+      // Only draw map for large tablet screens and up
+      if (width > 991) { 
+        function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
           center: new google.maps.LatLng(-17.879809, 31.021173),
@@ -136,8 +145,12 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
+        }
       google.maps.event.addDomListener(window, 'load', initialize);
+      } else {
+        $("#map-canvas").css("display", "none");
+        $("#map-button").css("display", "block");
+      }
     </script>
 
   </body>
