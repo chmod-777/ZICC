@@ -17,39 +17,8 @@
 
 
 
-
-* Add jQuery to the directors profile
-* Better transitions between pages
 * News section - monitor zim news sources about info on ZICC, post to unpublished, send notice email, approve to post
-* tel://xxx-xxxx link on phone number contact page 
+
 * mailing list
 
-
-
-
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-New note to Mr Tambo:
-*********************
-
-
-2. The outside edges of the service items should be aligned with the main image such that they line up and not overflow as is the case now.
-
-
-My Response
-***********
-
-Alrighty, wifi back and I've had a look at the stie over the past few hours.
-
-1. Setting margins in the body is what makes everything skwank. The page-wrapper should be centered as is, the reason for that little space to the right is usually a div with an abnormal width (so for example with the services items, the middle one had a really wide div, hence the rewrite to make it smaller). Still haven't figured out which div is causing the little bit of extra space left.
-
-2. Aligned the service items using percentage based left/right padding to keep it responsive.
-
-3. Ah, now the problem with this image is the text, because when the image resizes so does the text, which makes it impossible to read on a small screen, but you can still see there's something there, so the best might be to edit an image without the text on it, then place the text on the page as a div whose position is relative to the image to appear as it does right now, but then we can get rid of the div when the writting gets too small.
-
-
-7. There was also that little isue with the tumbnails, used a media query to set the max width on smaller screens to 40% and margins to auto so that they are horizontally centered.
-
-So yeah, pretty much it.
 

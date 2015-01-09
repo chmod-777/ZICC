@@ -12,6 +12,14 @@
     <!-- Custom CSS -->
     <link href="css/zicc.css" rel="stylesheet">
 
+    <style>
+      @media all and (max-width : 991px){
+        #membership-img {
+          display: none;
+        }
+      }
+    </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -68,29 +76,161 @@
               <h4><strong>Corporate membership fee - <span class="indian-green">$500 USD per annumn</span></strong></h4>
               <p>Corporate membership is for larger organizations. Organizations can nominate up to 3 representatives as members of ZICC.</p>
 
-              <h4><strong><span class="indian-green">Please click on the link below to download an application form</span></strong></h4>
+              <h4><strong><span class="indian-green">Please click on the link below to download an application form...</span></strong></h4>
 
               <p>&nbsp</p>
-              <p>&nbsp</p>
-              
+
               <a href="docs/ZICC-Membership-Form.doc"><img src="img/pdf_ico.jpg" alt=""></a>
-                <!-- REMOVE WELL
-                <div class="container">
 
-                  <div class="row well">
-                    <div class="col-lg-8 col-md-8">
-                      <h4>Apply to join ZICC right within your browser!</h4>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                      <a class="btn btn-lg btn-primary pull-right" href="http://startbootstrap.com">Apply Online</a>
-                    </div>
-                  </div><!-- /.row -->
-
-                <!--</div><!-- /.container -->
               <p>&nbsp</p>
-            </div>
 
-            <div class="col-md-3">
+              <h4><strong><span class="indian-green">Or apply online using this form:</span></strong></h4>
+
+                
+              <p>&nbsp</p>
+
+              <!-- Contact Form Accordion -->
+              <div id="accordion" class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><button id="contact-button" name="contact-button" class="btn btn-success">Application Form</button></a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <form class="form-horizontal">
+                        <fieldset>
+                        <!-- Form Name -->
+                        <legend></legend>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="company-tinput">Company Name:</label>
+                          <div class="controls">
+                            <input id="company-tinput" name="company-tinput" placeholder="Your Company Name" class="input-xlarge" required="" type="text">   
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="rep-tinput">Representative name:</label>
+                          <div class="controls">
+                            <input id="rep-tinput" name="rep-tinput" placeholder="Your name" class="input-xlarge" required="" type="text">  
+                          </div>
+                        </div>
+                        <!-- Select Basic -->
+                        <div class="control-group">
+                          <label class="control-label" for="title-input">Title:</label>
+                          <div class="controls">
+                            <select id="title-input" name="title-input" class="input-xlarge">
+                              <option>Mr</option>
+                              <option>Ms</option>
+                              <option>Miss</option>
+                              <option>Mrs</option>
+                              <option>Dr</option>
+                              <option>Eng</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="address-input">Address:</label>
+                          <div class="controls">
+                            <input id="address-input" name="address-input" placeholder="Address" class="input-xlarge" required="" type="text">  
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="email-input">Email:</label>
+                          <div class="controls">
+                            <input id="email-input" name="email-input" placeholder="Email address" class="input-xlarge" required="" type="text">   
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="tel-input">Telephone:</label>
+                          <div class="controls">
+                            <input id="tel-input" name="tel-input" placeholder="Your telephone number" class="input-xlarge" required="" type="text">   
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="mobile-input">Mobile Phone:</label>
+                          <div class="controls">
+                            <input id="mobile-input" name="mobile-input" placeholder="Your mobile number" class="input-xlarge" type="text">   
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="website-input">Company Website:</label>
+                          <div class="controls">
+                            <input id="website-input" name="website-input" placeholder="Your company website address" class="input-xlarge" type="text">
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="product-input">Products / Services:</label>
+                          <div class="controls">
+                            <input id="product-input" name="product-input" placeholder="Your company products / services" class="input-xlarge" required="" type="text">  
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="location-input">Location(s):</label>
+                          <div class="controls">
+                            <input id="location-input" name="location-input" placeholder="Where is your company located?" class="input-xlarge" required="" type="text">
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="size-input">Size of operations / No. of employees:</label>
+                          <div class="controls">
+                            <input id="size-input" name="size-input" placeholder="How many employees do you have?" class="input-xlarge" required="" type="text">
+                          </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                          <label class="control-label" for="relinput">Current relationships / Certifications:</label>
+                          <div class="controls">
+                            <input id="relinput" name="relinput" placeholder="What relationships do you have / certification do you hold?" class="input-xlarge" type="text">
+                          </div>
+                        </div>
+                        <!-- Multiple Radios -->
+                        <div class="control-group">
+                          <label class="control-label" for="membership">Type of membership</label>
+                          <div class="controls">
+                            <label class="radio" for="membership-0">
+                              <input name="membership" id="membership-0" value="Individual" checked="checked" type="radio">
+                              Individual
+                            </label>
+                            <label class="radio" for="membership-1">
+                              <input name="membership" id="membership-1" value="Corporate" type="radio">
+                              Corporate
+                            </label>
+                          </div>
+                        </div>
+                        <!-- File Button --> 
+                        <div class="control-group">
+                          <label class="control-label" for="filebutton">Attach Company Profile</label>
+                          <div class="controls">
+                            <input id="filebutton" name="filebutton" class="input-file" type="file">
+                          </div>
+                        </div>
+                        <!-- Button -->
+                        <div class="control-group">
+                          <label class="control-label" for="send-button"></label>
+                          <div class="controls">
+                            <button id="send-button" name="send-button" class="btn btn-success">Send!</button>
+                          </div>
+                        </div>
+                        </fieldset>
+                      </form>
+              </div>
+            </div><!-- /#collapseOne -->
+          </div><!-- /.panel .panel-default -->
+        </div><!-- /.accordion -->
+      </div><!-- /.col-md-9 -->
+
+            <div class="col-md-3" id="membership-img">
               <img src="img/member.jpg" alt="" class="img-responsive">
             </div>
           </div>
