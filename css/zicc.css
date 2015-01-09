@@ -9,13 +9,13 @@ body {
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff));
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #c5c5c5, #ffffff 12%);
+  background: -webkit-linear-gradient(top, #c5c5c5, #ffffff 190px);
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #c5c5c5, #ffffff 12%);
+  background: -moz-linear-gradient(top, #c5c5c5, #ffffff 190px);
   /* IE 10 */
-  background: -ms-linear-gradient(top, #c5c5c5, #ffffff 12%);
+  background: -ms-linear-gradient(top, #c5c5c5, #ffffff 190px);
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #c5c5c5, #ffffff 12%);
+  background: -o-linear-gradient(top, #c5c5c5, #ffffff 190px);
 }
 
 #page-wrapper {
@@ -185,6 +185,18 @@ body {
 #map-button {
   margin: 0 auto;
 }
+
+#map-button img {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+#map-button p {
+  text-align: center;
+}
+
+
+
 /** FOOTER **/
 
 .footer {
