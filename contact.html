@@ -11,6 +11,7 @@
 
     <!-- Custom CSS -->
     <link href="css/zicc.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
 
     <style>
       #map-canvas {
@@ -84,12 +85,81 @@
                     <p><strong>Phone:</strong><a href="tel:+26342900594">+2634 2900 594</a></p>
                     <p><strong>Email:</strong> <span class="indian-orange"><a href="mailto:info@zimbabweindiachamber.co.zw">info@zimbabweindiachamber.co.zw</a></span></p>
                     <p><strong>Website:</strong> <span class="indian-orange"><a href="http://www.zimbabweindiachamber.co.zw">www.zimbabweindiachamber.co.zw</a></span></p>
+
+                    <hr>
+
+                    <h4 class="indian-green"><strong>Alternatively, fill in the contact form below:</strong></h4>
+
+                    <!-- Contact Form Accordion -->
+                    <div id="accordion" class="panel-group">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Contact Form</a>
+                          </h4>
+                        </div>
+
+                        <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <form class="form-horizontal">
+                            <fieldset>
+
+                            <!-- Form Name -->
+                            <legend></legend>
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="nameinput">Name:</label>
+                              <div class="controls">
+                                <input id="nameinput" name="nameinput" placeholder="Your name" class="input-xlarge" required="" type="text"> 
+                              </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="email-input">Email:</label>
+                              <div class="controls">
+                                <input id="email-input" name="email-input" placeholder="You email address" class="input-xlarge" required="" type="text">
+                              </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="phone-input">Phone:</label>
+                              <div class="controls">
+                                <input id="phone-input" name="phone-input" placeholder="Your phone number" class="input-xlarge" required="" type="text">
+                              </div>
+                            </div>
+
+                            <!-- Textarea -->
+                            <div class="control-group">
+                              <label class="control-label" for="msg-area">Message:</label>
+                              <div class="controls">                     
+                                <textarea id="msg-area" name="msg-area">Type your message here...</textarea>
+                              </div>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="control-group">
+                              <label class="control-label" for="submit-button"></label>
+                              <div class="controls">
+                                <button id="submit-button" name="submit-button" class="btn btn-success">Send!</button>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </form>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /Contact Form Accordion -->
+
                   </div>
                   <div class="col-sm-3" id="contact-img">
                     <img src="img/zicc_contact.jpg" alt="" class="img-responsive">
                   </div>
                 </div>
 
+            <p>&nbsp</p>
+            <p>&nbsp</p>
             <!-- Google Map -->
             <div id="map-canvas"></div>
             <!-- /Google Map -->

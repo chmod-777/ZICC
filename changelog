@@ -1,0 +1,11 @@
+Changes
+*******
+
+
+- Added responsiveness for better mobile and tablet experience
+- Changed presentation style of pages
+- Added sticky navbar for better navigation on pages with lots of content
+- Dynamic database driven events calendar on schedule page (no php logic as yet)*
+- Added google map on contact page for large screens and google map app button for smaller screens
+- Added accordion contact form to contact us page
+- Added phone link on phone number on contact page for immediate dialing on mobile
